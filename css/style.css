@@ -1,0 +1,340 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; }
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px
+}
+
+.header {
+    background-color: #445161;
+}
+
+.greeting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.greeting-title {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+}
+
+.greeting-img {
+    padding: 55px 0;
+}
+
+.greeting__inner {
+    padding: 55px 0;
+}
+
+.greeting-title {
+    font-family: Arial;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.greeting-list {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 36px;
+    max-width: 80%;
+    padding: 0;
+    text-align: left;
+    list-style-type: none;
+}
+
+.greeting-list li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.greeting-list li:before {
+    content: '';
+    background-image: url('../img/check_mark.png');
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.list_item {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+
+.flex__inner {
+    display: flex;
+}
+
+.flex-img {
+    padding-top: 49px;
+    padding-bottom: 51px;
+
+}
+
+.flex-text {
+    padding-top: 51px;
+    padding-bottom: 46px;
+    margin-left: 38px;
+}
+
+.flex-title {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.flex-info_text {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.flex-container {
+    background-color: ghostwhite;
+}
+
+.flex-container__title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    padding-top: 48px;
+    margin-bottom: 51px;
+}
+
+.flex-description__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-description {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.flex-description__title {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.flex-description__text {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.flex-text__inner {
+    margin-right: 15px;
+}
+
+.flex-description:nth-child(1),
+.flex-description:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.flex-description:nth-child(3),
+.flex-description:nth-child(4) {
+    margin-bottom: 50px;
+}
+
+.flexbox {
+    margin-right: 15px;
+}
+
+.vertical-leveling__title {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 49px;
+}
+
+.vertical-leveling__inner {
+    display: flex;
+    justify-content: center;
+    gap: 45px; /* Используем gap вместо margin-right */
+}
+
+.vertical-leveling__item {
+    width: 300px;
+    height: 500px; /* Высота автоматически определяется контентом */
+    background-color: #445161;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vertical-leveling__wish {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    margin-top: 0; /* Добавляем отступ сверху */
+}
+
+.vertical-leveling__subscribe {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    padding: 25px 30px;
+    background-color: #fff;
+    border: 2px solid #445161; /* Упрощаем определение границ */
+    margin-bottom: 19px;
+}
+
+.vertical-leveling__text {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 180px;
+}
+
+.vertical-button {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    width: 2600px;
+    height: 40px;
+    background-color: #fff;
+    padding: 15px 75px;
+    border-radius: 15px;
+}
+
+.vertical-leveling__text2 {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.vertical-button2 {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    width: 2600px;
+    height: 40px;
+    background-color: #fff;
+    padding: 15px 110px;
+    border-radius: 15px;
+}
+
+.vertical-leveling__text3 {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: start;
+    margin-left: 20px;
+    margin-bottom: 130px;
+}
+
+.vertical-button3 {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    width: 2600px;
+    height: 40px;
+    background-color: #fff;
+    padding: 15px 60px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #445162;
+    padding: 30px 0;
+    background-color: ghostwhite;
+}
+
+
+
