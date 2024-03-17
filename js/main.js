@@ -1,9 +1,7 @@
 $(function(){
-    $('.reviews-slider').slick({
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+    $('.carousel__inner').slick({
         arrows: false,
         dots: true,
-    });
-})
+        slidesToShow: 3
+    })
+});
