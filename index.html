@@ -1,44 +1,349 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Задание 3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+	      rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+	      rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Легкость старта карьеры. Специалист или Работник.</h1>
+<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<div class="logo">
+				<a href="#">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<nav class="mneu">
+				<ul class="menu__list">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">WHMCS-BRIDGE</a></li>
+					<li><a href="#">HOSTING</a></li>
+					<li><a href="#">PAGES</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
 
-    <p>Представим себе что специальность выбрана, обучение пройдено и ты думаешь над тем где проще начать свою карьеру.</p>
-    <p>Если же ты не знаешь какую специальность выбрать и с чего начать обучение смотри выпуск «<a href="#">Как стать IT-специалистом с нуля.</a>»</p>
-    <p>Так вот, давай рассмотрим основные отличия старта твоего пути в офисе и фрилансе. Для этого я собрал несколько основных требований которым нужно соответствовать что бы получить работу.</p>
+<section class="top">
+	<div class="container">
+		<div class="top__inner">
+			<div class="top-info">
+				<div class="top-info__subtitle">
+					Simple - Easy to use - 10x faster!
+				</div>
+				<h1 class="top-info__title">
+					The Best Web Hosting
+				</h1>
+				<div class="top-info__descr">
+					Starting at $7.99 $3.95/month*
+					<span>Enter  your website to see how we can help your business grow ...</span>
+				</div>
+				<ul class="top-info__list">
+					<li>FREE Domain</li>
+					<li>FREE Site Builders</li>
+					<li>1-Click <img src="img/wp-icon.png" alt=""> WordPress Install</li>
+					<li>24/7 Support</li>
+				</ul>
+				<a href="#" class="top-info__btn">Get Started Now</a>
+				<div class="top-info__btn-descr">
+					*Special intro offer and 30-day money-back guarantee
+				</div>
+			</div>
+			<div class="top-images">
+				<div class="top-images__box">
+					<img src="img/superman.png" alt="">
+					<div class="top-images__circle">
+						<div class="top-images__title">Starting at</div>
+						<div class="top-images__price">$7.99</div>
+						<div class="top-images__date">/month</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <h2>Требования для старта на фрилансе:</h2>
+<section class="price">
+	<div class="container">
+		<h2 class="title">
+			Pay for what you <span>actually</span> use. No hidden charge!
+		</h2>
+		<div class="price__descr">SEO WP built using Live Composer — a front-end page builder for <a
+				href="#">WordPress</a>. Live Composer is a new generation of the
+			<a href="#">visual editors</a> for your website. Using simple drag and drop interface you can create any
+			page layout. <span>No coding skills required</span>
+		</div>
+		<div class="price__items">
+			<div class="price-item">
+				<div class="price-item__number">
+					€190/<span>mo</span>
+				</div>
+				<div class="price-item__images">
+					<img src="img/price-icon1.png" alt="">
+				</div>
+				<div class="price-item__title">
+					Personal
+				</div>
+				<div class="price-item__text">
+					I think your best bet would be to start or join a startup. That’s been a reliable way to get rich
+					for
+					hundreds of years.
+				</div>
+				<ul class="price-item__list">
+					<li>10GB Space</li>
+					<li>1 Free Domain</li>
+					<li>300GB SSD Disk</li>
+					<li>Custom domain</li>
+				</ul>
+				<a href="#" class="price-item__btn">Get Started Now</a>
+			</div>
+			<div class="price-item">
+				<div class="price-item__number">
+					€499/<span>mo</span>
+				</div>
+				<div class="price-item__images">
+					<img src="img/price-icon2.png" alt="">
+				</div>
+				<div class="price-item__title">
+					Enterprise
+				</div>
+				<div class="price-item__text">
+					I think your best bet would be to start or join a startup. That’s been a reliable way to get rich
+					for
+					hundreds of years.
+				</div>
+				<ul class="price-item__list">
+					<li>10GB Space</li>
+					<li>1 Free Domain</li>
+					<li>300GB SSD Disk</li>
+					<li>Custom domain</li>
+				</ul>
+				<a href="#" class="price-item__btn">Get Started Now</a>
+			</div>
+			<div class="price-item">
+				<div class="price-item__number">
+					€999/<span>mo</span>
+				</div>
+				<div class="price-item__images">
+					<img src="img/price-icon3.png" alt="">
+				</div>
+				<div class="price-item__title">
+					Business
+				</div>
+				<div class="price-item__text">
+					I think your best bet would be to start or join a startup. That’s been a reliable way to get rich
+					for
+					hundreds of years.
+				</div>
+				<ul class="price-item__list">
+					<li>10GB Space</li>
+					<li>1 Free Domain</li>
+					<li>300GB SSD Disk</li>
+					<li>Custom domain</li>
+				</ul>
+				<a href="#" class="price-item__btn">Get Started Now</a>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <ol>
-        <li>Владеть практическими и теоретическими знаниями по своей специальности. То есть уметь делать то чем решил заниматься.</li>
-        <li>Иметь доступ к необходимым инструментам. Другими словами купить, одолжить либо взять в аренду необходимые инструменты либо аппаратуру для качественного выполнения заказа.</li>
-        <li>Найти рынок сбыта твоего товара либо услуг. Зарегистрироваться на фриланс биржах либо найти другие площадки где можно предложить именно твои услуги.</li>
-        <li>Иметь базовые устные или письменные навыки коммуникации. То есть уметь говорить с людьми, клиентами.</li>
-    </ol>
+<section class="reviews">
+	<div class="container">
+		<div class="title">
+			What <span>People</span> Say About Us
+		</div>
+		<div class="reviews-slider">
+			<div class="reviews-slider__item">
+				<div class="reviews-box">
+					<div class="reviews-box__images">
+						<img src="img/photo1.jpg" alt="">
+					</div>
+					<div class="reviews-box__content">
+						<div class="reviews-box__text">
+							There are many variations of passages of Lorem Ipsum available, but the majority have
+							suffered
+							alteration in some form, by injected humour, or randomised words which don't look even
+							slightly
+							believable.
+						</div>
+						<div class="reviews-box__author">
+							<span>Captain America</span> - unemployed
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-slider__item">
+				<div class="reviews-box">
+					<div class="reviews-box__images">
+						<img src="img/photo2.jpg" alt="">
+					</div>
+					<div class="reviews-box__content">
+						<div class="reviews-box__text">
+							There are many variations of passages of Lorem Ipsum available, but the majority have
+							suffered
+							alteration in some form, by injected humour, or randomised words which don't look even
+							slightly
+							believable.
+						</div>
+						<div class="reviews-box__author">
+							<span>Tony Stark</span> - CEO Stark Industries
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-slider__item">
+				<div class="reviews-box">
+					<div class="reviews-box__images">
+						<img src="img/photo1.jpg" alt="">
+					</div>
+					<div class="reviews-box__content">
+						<div class="reviews-box__text">
+							There are many variations of passages of Lorem Ipsum available, but the majority have
+							suffered
+							alteration in some form, by injected humour, or randomised words which don't look even
+							slightly
+							believable.
+						</div>
+						<div class="reviews-box__author">
+							<span>Captain America</span> - unemployed
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-slider__item">
+				<div class="reviews-box">
+					<div class="reviews-box__images">
+						<img src="img/photo2.jpg" alt="">
+					</div>
+					<div class="reviews-box__content">
+						<div class="reviews-box__text">
+							There are many variations of passages of Lorem Ipsum available, but the majority have
+							suffered
+							alteration in some form, by injected humour, or randomised words which don't look even
+							slightly
+							believable.
+						</div>
+						<div class="reviews-box__author">
+							<span>Tony Stark</span> - CEO Stark Industries
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-slider__item">
+				<div class="reviews-box">
+					<div class="reviews-box__images">
+						<img src="img/photo1.jpg" alt="">
+					</div>
+					<div class="reviews-box__content">
+						<div class="reviews-box__text">
+							There are many variations of passages of Lorem Ipsum available, but the majority have
+							suffered
+							alteration in some form, by injected humour, or randomised words which don't look even
+							slightly
+							believable.
+						</div>
+						<div class="reviews-box__author">
+							<span>Captain America</span> - unemployed
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews-slider__item">
+				<div class="reviews-box">
+					<div class="reviews-box__images">
+						<img src="img/photo2.jpg" alt="">
+					</div>
+					<div class="reviews-box__content">
+						<div class="reviews-box__text">
+							There are many variations of passages of Lorem Ipsum available, but the majority have
+							suffered
+							alteration in some form, by injected humour, or randomised words which don't look even
+							slightly
+							believable.
+						</div>
+						<div class="reviews-box__author">
+							<span>Tony Stark</span> - CEO Stark Industries
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <h2>Пример:</h2>
-    <p>Ты художник, соответственно ты должен уметь рисовать, владеть всеми необходимыми кисточками, красками и собственно быть готовым найти потенциального клиента и предложить свои услуги.</p>
-    <img src="img/like.png" alt="">
-    <p>Выходит что тебе достаточно быть специалистом в своем деле и ты уже можешь начинать карьеру фрилансера.</p>
-    <p>Требования для старта карьеры в офисе крайне разнообразны в зависимости от конкретной компании, я постарался выделить основные.</p>
-
-    <h2>Требования для старта в компании:</h2>
-    <ul>
-        <li>Тут тоже нужно владеть знаниями по своей специальности. Но именно теми подвидами, технологиями, инструментами которые требует конкретная вакансия.</li>
-        <li>Владеть дополнительными знаниями программ и практик которые применяются в конкретном офисе.</li>
-        <li>Быть молодым. Этот пункт не всегда озвучиваться, но к сожалению практика показывает, что его стоит сюда включить.</li>
-        <li>Владеть английским языком. В самом знании языка ничего плохого не вижу, но тем не менее это дополнительное требование.</li>
-        <li>Быть командным игроком. Как правило, для компании это важнее чем твои знания. Для руководства необходимо без болезненно управлять коллективом, по этому «выскочки» и чересчур амбициозные кандидаты которые не привыкли играть по правилам скорее всего будут отсеяны.</li>
-    </ul>
-
-    <h2>Пример:</h2>
-    <p>Ты программист, соответственно тебе нужно владеть именно тем языком программирования который указан в вакансии. А так же дополнительно владеть знаниями различных офисных программ для работы в команде. Как правило, быть молодым и знать английский. Уметь и любить работать в коллективе, а твои амбиции не должны выходить за рамки компании.</p>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer-menu">
+				<a href="" class="footer__logo">
+					<img src="img/logo.png" alt="" class="">
+				</a>
+				<div class="footer__text">Hosting Website Builder is a big library of pre-designed web elements which
+					help you create website in few minutes.
+				</div>
+			</div>
+			<div class="footer-menu">
+				<div class="footer__title">Knowledge Base</div>
+				<ul class="footer__list">
+					<li><a href="#">Tutorials</a></li>
+					<li><a href="#">Get Paid to Write</a></li>
+					<li><a href="#">Questions</a></li>
+					<li><a href="#">Meetups</a></li>
+					<li><a href="#">Referral Program</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Droplets for Demos</a></li>
+				</ul>
+			
+			</div>
+			<div class="footer-menu">
+				<div class="footer__title">Company</div>
+				<ul class="footer__list">
+					<li><a href="#">Hosting.com Blog</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Affiliate Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+			</div>
+			<div class="footer-form">
+				<div class="footer__title">
+					Quick Contact
+				</div>
+				<form>
+					<input type="text" placeholder="Name">
+					<input type="text" placeholder="Email Address">
+					<input type="text" placeholder="Subject">
+					<textarea placeholder="Message"></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
